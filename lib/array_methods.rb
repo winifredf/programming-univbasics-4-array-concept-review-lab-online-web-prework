@@ -39,21 +39,3 @@ def find_element_index(array, value_to_find)
 
 
 end
-
-  
-  # Add your solution here
-end
-
-def find_min_value(array)
-  
-  describe 'find_min_value(array)' do
-    it 'takes in an array of integers and returns the lowest value integer' do
-      expect(find_min_value(scale)).to eq(2)
-      expect(find_min_value(scale_2)).to eq(3)
-      expect(find_min_value(hill)).to eq(1)
-      expect(find_min_value(valley)).to eq(0)
-      expect(find_min_value(zig_zag)).to eq(4)
-    end
-  end
-  # Add your solution here
-end
