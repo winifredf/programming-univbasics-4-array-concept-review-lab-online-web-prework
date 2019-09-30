@@ -1,5 +1,7 @@
+
+
 def find_element_index(array, value_to_find)
-  require 'pry'
+ 
 
 describe 'Finding data' do
 
